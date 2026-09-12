@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Using ElfAnt — Never Forget</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+    h3 { font-size: 1rem; margin-top: 1.4rem; }
+    a { color: #4a90d9; }
+    hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
+    .meta { color: #666; font-size: 0.9rem; }
+    nav.top { font-size: 0.9rem; margin-bottom: 1.5rem; }
+    nav.top a { margin-right: 16px; }
+    .badges { margin: 1rem 0; }
+    .badges span {
+      display: inline-block;
+      font-size: 0.8rem;
+      background: #f2f6fc;
+      color: #4a90d9;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin: 0 6px 6px 0;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      gap: 12px;
+      margin: 12px 0;
+    }
+    .feature {
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 10px 12px;
+    }
+    .feature .t { font-weight: 600; font-size: 0.95rem; }
+    .feature .d { font-size: 0.85rem; color: #666; margin-top: 2px; }
+    .feature.new .t::after {
+      content: "NEW";
+      font-size: 0.65rem;
+      color: #4a90d9;
+      border: 1px solid #4a90d9;
+      border-radius: 4px;
+      padding: 1px 5px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .steps span {
+      display: inline-block;
+      font-size: 0.85rem;
+      background: #f7f7f7;
+      border: 1px solid #eee;
+      border-radius: 6px;
+      padding: 4px 10px;
+      margin: 0 6px 6px 0;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="top">
+  <strong>Using ElfAnt</strong> ·
+  <a href="privacy-policy.html">Privacy Policy</a> ·
+  <a href="terms-of-service.html">Terms of Service</a>
+</nav>
+
+<h1>Using ElfAnt</h1>
+<p class="meta">A tour of the app — how it's laid out and what each part does.</p>
+
+<hr>
+
+<p>ElfAnt (Never Forget) is a gamified task, habit, and goal tracker with Memo — a friendly elephant who nudges, celebrates, and keeps you honest. Offline-first, with optional Google Calendar sync and a way to share tasks with anyone, no account required.</p>
+
+<div class="badges">
+  <span>Offline-first</span>
+  <span>Google Calendar sync</span>
+  <span>Siri quick-capture</span>
+  <span>No account to share a task</span>
+</div>
+
+<h2>01 · First Launch — Getting Started</h2>
+<p>A short onboarding walks you through what ElfAnt does, how it should talk to you, and whether it can send reminders.</p>
+<div class="steps">
+  <span>1. Launch</span>
+  <span>2. Welcome</span>
+  <span>3. Pick your style</span>
+  <span>4. Reminders</span>
+</div>
+
+<h2>02 · The Main Screen — Your Home Screen</h2>
+<p>Everything starts here: today's tasks, your habits, pinned goals, and quick access to every other part of the app along the top.</p>
+<div class="feature-grid">
+  <div class="feature"><div class="t">Search</div><div class="d">Find any task instantly, done or not.</div></div>
+  <div class="feature"><div class="t">Scan</div><div class="d">Import a task someone shared with you as a card.</div></div>
+  <div class="feature"><div class="t">Weekly Review</div><div class="d">See how your week went at a glance.</div></div>
+  <div class="feature"><div class="t">Focus Timer</div><div class="d">Start a Pomodoro session on any task, habit, or goal.</div></div>
+  <div class="feature"><div class="t">Goals</div><div class="d">Must/Should/Could/Won't-Do goals, pin up to 5 here.</div></div>
+  <div class="feature"><div class="t">Journal</div><div class="d">Daily reflections with text, photos, or GIFs.</div></div>
+  <div class="feature"><div class="t">Sync Calendar</div><div class="d">Pull in today's events from Google Calendar.</div></div>
+  <div class="feature"><div class="t">Profile</div><div class="d">XP, level, streak, and settings.</div></div>
+</div>
+
+<h3>How the lists work</h3>
+<p>Overdue, Today, and Upcoming each rank by priority first, then by scheduled time, and show only your top 5 — a "+N more" link expands the rest. Check a Today task off and it disappears immediately, with the next-ranked task sliding into its place and a small green badge tracking how many you've finished today.</p>
+
+<h2>03 · What You Can Do — Core Features</h2>
+<p>Everything below is reachable from the Home screen's top bar or the task editor.</p>
+<div class="feature-grid">
+  <div class="feature"><div class="t">Tasks &amp; Priorities</div><div class="d">Set a due time and a Low/Medium/High priority. Drag to reorder your visible top 5, or let the ranking do it for you.</div></div>
+  <div class="feature"><div class="t">Habits</div><div class="d">Daily habit sections with streaks — check in once a day; miss one and the streak resets.</div></div>
+  <div class="feature"><div class="t">Goals</div><div class="d">Sort what matters into Must / Should / Could / Won't Do, and pin up to 5 to your Home strip.</div></div>
+  <div class="feature"><div class="t">Focus Timer</div><div class="d">Pomodoro sessions from 5 to 60 minutes. Completed sessions log focus time straight onto the linked task.</div></div>
+  <div class="feature"><div class="t">Journal</div><div class="d">A private daily entry — text, photos, or GIFs, stored right on your device.</div></div>
+  <div class="feature"><div class="t">Calendar Sync</div><div class="d">Two-way Google Calendar sync — today's events show up as tasks, and new tasks push back to your calendar.</div></div>
+  <div class="feature"><div class="t">Share &amp; Scan</div><div class="d">Turn a task into a postable card with an embedded QR. Text it, post it — the recipient scans it straight into their own ElfAnt.</div></div>
+  <div class="feature"><div class="t">Gamification</div><div class="d">Earn XP and coins for every completed task, level up, and keep your streak alive. Memo reacts to how your day's going.</div></div>
+  <div class="feature new"><div class="t">Siri Quick-Capture</div><div class="d">"Add a task in ElfAnt," log a journal entry, or start a focus session — hands-free, even while driving.</div></div>
+  <div class="feature new"><div class="t">Day &amp; Week Calendar</div><div class="d">A real agenda view of your Google Calendar, with a tap-through to edit any event.</div></div>
+</div>
+
+<hr>
+
+<p class="meta">ElfAnt (Never Forget) · by DigiPeace LLC<br>
+Email: <a href="mailto:kbfixit22@gmail.com">kbfixit22@gmail.com</a><br>
+Support: <a href="https://github.com/kbfixit22-dot/never_forget">https://github.com/kbfixit22-dot/never_forget</a></p>
+
+<nav class="top">
+  <a href="privacy-policy.html">Privacy Policy</a> ·
+  <a href="terms-of-service.html">Terms of Service</a>
+</nav>
+
+</body>
+</html>
